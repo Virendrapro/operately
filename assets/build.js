@@ -55,6 +55,4 @@ if (watch) {
       process.exit(1);
     });
 
-} else {
-  esbuild.build(opts);
-}
+} 
